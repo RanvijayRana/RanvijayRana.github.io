@@ -1,0 +1,252 @@
+:root{
+	font-size : 16px;
+}
+
+.window {
+	display: flex; 
+	flex-direction: column;
+	background-color: #F5E8E8;
+}
+	
+
+.window .container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	background-color : #1a8b7c;
+	height : 50vh;
+	border: 1px solid #2c2c2c;
+	border-radius: 1rem;
+	box-shadow: 0rem 0rem 0.5rem 0.5rem #5bc4ef;
+	margin: 1.5%;
+	padding: 1% 2% 1% 2%;
+	
+}
+
+.window .container .heading{
+	align-items: center;
+	padding: 4%;
+	width: 40%;	
+}
+.window .container .details{
+	align-items: center;
+	padding: 4%;
+	width: 40%;	
+}
+
+.window .container .image {
+	padding: 1% 0% 1% 1%;
+	width: 20%;
+}
+
+.my-image{
+	border: 1px solid #35eea4;
+    border-radius: 1rem;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+	height: 99%;
+	width: 90%;
+}
+
+.row {
+    display: flex;
+	flex-direction: column;
+    margin-top: 5vh; 
+}
+
+.paragraph {
+    float: left;
+    color: #2c2c2c;
+    font-family: "Istok Web", sans-serif;
+	padding: 5%;
+    width: 85vw;
+}
+
+.icon-group {
+    margin-top: 10vh; 
+}
+.icon-group .icon {
+    margin-right: 10px;
+    width: 3%;
+	height: 3%;
+}
+
+@media screen and (min-width : 1025px){
+	.window .container{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-around;
+		background-color : #1a8b7c;
+		height : 50vh;
+		margin: 1%;		
+	}
+	.window .container .heading{
+		font-size: 1rem;
+		width: 15%;	
+		height: 8%;
+		padding-top: 15vh;
+	}
+	
+	.window .container .image {
+		width: 20%;		
+		align-self: auto;
+	}
+
+	.my-image{
+		border: 1px solid #35eea4;
+		border-radius: 1rem;
+		box-shadow: 0px 3px 20px 2px #2c2c2c;
+		height: 99%;
+		width: 100%;
+	}
+	.window .container .details{
+		font-size: 1.5rem;
+		padding-top: 6vh;
+		width: 40%;	
+		height: 55%;
+	}
+
+	.paragraph {
+		font-size: 1.5rem;
+	}
+	.icon-group .icon {
+		width: 3%;
+		height: 3%;
+	}
+}
+
+@media screen and (min-width : 800px) and (max-width : 1024px){
+	.window .container{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-around;
+		background-color : #1a8b7c;
+		height : 30vh;
+		margin: 1%;		
+	}
+	.window .container .heading{
+		font-size: 1rem;
+		width: 15%;	
+		height: 8%;
+		padding-top: 11vh;
+	}
+	
+	.window .container .image {
+		width: 20%;		
+		align-self: auto;
+		padding-top: 5vh;
+	}
+
+	.my-image{
+		border: 1px solid #35eea4;
+		border-radius: 1rem;
+		box-shadow: 0px 3px 20px 2px #2c2c2c;
+		height: 80%;
+		width: 100%;
+	}
+	.window .container .details{
+		font-size: 1.5rem;
+		padding-top: 3vh;
+		width: 40%;	
+		height: 55%;
+	}	
+	
+	.paragraph {
+		font-size: 1.7rem;
+	}
+	.icon-group .icon {
+		width: 5%;
+		height: 5%;
+	}
+}
+
+@media screen and (min-width : 420px)and (max-width : 880px){
+	.window .container{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		background-color : #1a8b7c;
+		height : 50vh;
+		margin: 1.5%;
+		
+	}
+	.window .container .heading{
+		font-size: 1.2rem;
+		width: 90%;	
+		height: 8%;
+		padding-top: 0%;
+	}
+	
+	.window .container .image {
+		width: 96.8%;
+		height: 46%;
+		padding-top: 0.3%;
+	}
+
+	.my-image{
+		border: 1px solid #35eea4;
+		border-radius: 1rem;
+		box-shadow: 0px 3px 20px 2px #2c2c2c;
+		height: 99%;
+		width: 30%;
+	}
+	.window .container .details{
+		font-size: 1.2rem;
+		padding-top: 0%;
+		width: 90%;	
+		height: 32%;
+	}
+	
+	.paragraph {
+		font-size: 1.5rem;
+	}
+	.icon-group .icon {
+		width: 5%;
+		height: 5%;
+	}
+	
+}
+
+@media screen and (max-width : 419px){
+	.window .container{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-around;
+		
+	}
+	.window .container .heading{
+		font-size: 0.5rem;
+		width: 90%;	
+		height: 8%;
+		padding-top: 0%;
+	}
+	
+	.window .container .image {
+		width: 96.8%;
+		height: 46%;
+		padding-top: 0.3%;
+	}
+
+	.my-image{
+		border: 1px solid #35eea4;
+		border-radius: 1rem;
+		box-shadow: 0px 3px 20px 2px #2c2c2c;
+		height: 99%;
+		width: 30%;
+	}
+	.window .container .details{
+		font-size: 0.55rem;
+		padding-top: 0%;
+		width: 90%;	
+		height: 30%;
+	}
+	
+	.icon-group .icon {
+		width: 5%;
+		height: 5%;
+	}
+}
+
