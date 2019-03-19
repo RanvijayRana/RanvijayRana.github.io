@@ -90,6 +90,7 @@
 	
 	.window .container .image {
 		width: 20%;
+		height: 90%;
 		align-self: auto;
 	}
 
