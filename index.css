@@ -37,6 +37,7 @@
 .window .container .image {
 	padding: 1% 0% 1% 1%;
 	width: 20%;
+	height: 90%;
 }
 
 .my-image{
@@ -88,7 +89,7 @@
 	}
 	
 	.window .container .image {
-		width: 20%;		
+		width: 20%;
 		align-self: auto;
 	}
 
